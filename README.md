@@ -1,21 +1,17 @@
 ﻿OpenWrt-dist LuCI
 ===
 
-
-
 适用项目
 ---
  > 默认不带相应的 UCI 配置文件, 需要搭配以下软件包使用  
 
  Name                     | Description
  -------------------------|-----------------------------------
- [openwrt-chinadns][1]    | ChinaDNS for OpenWrt
- 
-[openwrt-redsocks2][2]   | RedSocks2 for OpenWrt
- 
-[openwrt-shadowsocks][3] | Shadowsocks-libev for OpenWrt
+ [openwrt-chinadns][5]    | ChinaDNS for OpenWrt
+ [openwrt-redsocks2][R]   | RedSocks2 for OpenWrt
+ [openwrt-shadowvpn][8]   | ShadowVPN for OpenWrt
+ [openwrt-shadowsocks][7] | Shadowsocks-libev for OpenWrt
 
-[openwrt-shadowvpn][4]   | ShadowVPN for OpenWrt
 编译说明
 ---
  > 从 OpenWrt 的 [SDK][S] 编译  
@@ -34,11 +30,8 @@ make V=99
 
 
   
-[1]: https://github.com/fo369/openwrt-chinadns
-  
-[2]: https://github.com/fo369/openwrt-redsocks2
-
-[3]: https://github.com/fo369/openwrt-shadowsocks
-  
-[4]: https://github.com/fo369/openwrt-shadowvpn
-[S]: http://wiki.openwrt.org/doc/howto/obtain.firmware.sdk
+  [5]: https://github.com/fo369/openwrt-chinadns
+  [7]: https://github.com/fo369/openwrt-shadowsocks
+  [8]: https://github.com/fo369/openwrt-shadowvpn
+  [R]: https://github.com/fo369/openwrt-redsocks2
+  [S]: http://wiki.openwrt.org/doc/howto/obtain.firmware.sdk
